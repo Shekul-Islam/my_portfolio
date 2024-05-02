@@ -1055,8 +1055,16 @@ img {
     max-width: 100%;
 }
 
+.banner-image img{
+    width: 600px;
+    height: 600px;
+}
+
 .banner-image {
     margin-right: -170px;
+    margin-left: -110px;
+    width: 1000px;
+    
 }
 
 .banner.banner-8 {
