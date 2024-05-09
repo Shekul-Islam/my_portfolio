@@ -277,7 +277,11 @@ a {
 }
 
 .section-heading {
-    margin-bottom: 35px;
+    margin-bottom: 15px;
+}
+
+.section-heading h2 p {
+    margin-bottom: 0px;
 }
 
 .section-heading h5 {
@@ -7354,7 +7358,7 @@ a.pc-sidebar-contact-meta:hover {
     margin-left: 3px;
     transform: translateY(1px);
 }
-
+/* 
 .overlay {
     position: fixed;
     left: 0;
@@ -7367,6 +7371,18 @@ a.pc-sidebar-contact-meta:hover {
     transition: all .3s;
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
+} */
+
+.about_title h3 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.about_title h3 span {
+	color: #d6040b;
 }
 
 button.side-admin-settings {
